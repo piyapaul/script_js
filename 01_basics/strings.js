@@ -5,3 +5,5 @@ const gameName = new String('Piya');
 console.log(gameName.length);
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('P'));
+const anotherString = gameName.slice(-8,2)
+console.log(anotherString);
